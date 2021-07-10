@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-const Test = () => {
+const SurveyForm = () => {
   return (
     <section>
       <h2>Style Quiz</h2>
@@ -14,6 +14,6 @@ const Test = () => {
   );
 }
 
-ReactDOM.render(<Test/>, document.getElementById('root'));
+ReactDOM.render(<SurveyForm/>, document.getElementById('root'));
 
 
