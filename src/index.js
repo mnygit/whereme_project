@@ -1,20 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SurveyForm from './SurveyForm'
 import './index.css';
 
-const SurveyForm = () => {
-  return (
-    <section>
-      <h2>Style Quiz</h2>
-      <p>What occasion are you dressing for?</p>
-      <p>What is your age range?</p>
-      <p>What is the season?</p>
-      <button>Show Styles!</button>
-      </section>
-
-  );
-}
-
-ReactDOM.render(<SurveyForm/>, document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <SurveyForm/>
+  </React.StrictMode>,
+document.getElementById('root')
+);
 
 
