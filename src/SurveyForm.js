@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import '../assets/pexels-vlada-karpovich-7429304.mp4';
 
 const SurveyForm = () => {
     return (
@@ -9,8 +10,12 @@ const SurveyForm = () => {
         <p>What is your age range?</p>
         <p>What is the season?</p>
         <button>Show Styles!</button>
-        </section>
+        <div>
+          <video src={} />
+        </div>
   
+        </section>
+        
     );
   }
 
