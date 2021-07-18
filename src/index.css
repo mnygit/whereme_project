@@ -13,3 +13,14 @@
     gap: 2rem;
     background-color: #5F9EA0;
    }
+
+   nav {
+       background-color: pink;
+       display: inline-block;
+
+   }
+
+   .btn {
+       width: 150px;
+       height: 50px;
+   }

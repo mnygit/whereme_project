@@ -6,9 +6,11 @@ const Header = () => {
     return (
         <div>
         <nav>
-        <a href="#">About</a>
-        <a href="#">Survey</a>
-        <a href="#">Contact</a>
+        <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Survey</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
         </nav>
         </div>
     
