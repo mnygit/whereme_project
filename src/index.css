@@ -5,9 +5,9 @@
    
    }
 
-   /* .body {
-    font-family: 
-   } */
+   .font-link {
+    font-family: 'STIX Two Math', serif;
+   } 
 
    .quiz {
     width: 90vw;
@@ -20,7 +20,7 @@
 
    nav {
        background-color: pink;
-       display: inline-block;
+       
 
    }
 
