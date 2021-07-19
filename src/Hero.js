@@ -1,11 +1,14 @@
 import React from 'react';
 import './index.css';
-import '../assets/hero_video.mp4';
+import './hero_video.mp4';
 
 
   const HeroSection = () => {
       return (
+        <div>
         <h2 className="hero">Hero Section</h2>
+        <video src="hero_video.mp4"/>
+        </div>
       )
   }
 
