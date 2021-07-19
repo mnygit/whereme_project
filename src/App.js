@@ -1,14 +1,18 @@
 import React from 'react';
-import SurveyForm from './SurveyForm';
 import Header from './Header';
+import Hero from './Hero';
+import SurveyForm from './SurveyForm'; 
+import Footer from './Footer';
 
 
 
 const App = () => {
 return (
    <div>
-      <Header/>
-      <SurveyForm/>
+      <Header />
+      <Hero />
+      <SurveyForm />
+      <Footer />
     </div>
   )
  }
