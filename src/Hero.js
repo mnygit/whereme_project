@@ -7,7 +7,6 @@ import './hero_video.mp4';
       return (
         <div className="hero-section">
         <h2 className="hero">Hero Section</h2>
-        <video src="hero_video.mp4"/>
         </div>
       )
   }
