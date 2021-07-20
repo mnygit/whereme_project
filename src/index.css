@@ -59,6 +59,9 @@ footer {
     background-color: cornflowerblue;
 }
 
+.hero-section {
+    height: 600px;
+}
 
    /* .font-link {
     font-family: 'STIX Two Math', serif;
