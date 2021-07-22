@@ -7,7 +7,18 @@ import ReactPlayer from 'react-player';
   const HeroSection = () => {
       return (
         <div className="hero-section">
-         <ReactPlayer url={video} width="50%" height="auto" controls={true}/> 
+         <ReactPlayer
+         url={video} 
+         width="100%" 
+         height="auto" 
+         controls={true}
+         playing
+         muted
+         config={{ file: { attributes: {
+           autoPlay: true,
+           muted: true
+         }}}}
+         /> 
         <h2 className="hero">Hero Section</h2>
 
         </div>
