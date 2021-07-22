@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player';
   const HeroSection = () => {
       return (
         <div className="hero-section">
-         <ReactPlayer url='https://www.youtube.com/watch?v=e90eWYPNtJ8' /> 
+         <ReactPlayer url='./hero_video.mp4' width="100%" height="100%" controls={true}/> 
         <h2 className="hero">Hero Section</h2>
 
         </div>
