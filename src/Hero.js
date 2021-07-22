@@ -20,6 +20,7 @@ import ReactPlayer from 'react-player';
            muted: true
          }}}}
          />
+         <h2>Testing the font!</h2>
         </div>
       )
   }
