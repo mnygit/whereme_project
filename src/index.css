@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
    
    }
 
@@ -73,9 +75,6 @@ footer {
     background-color: lavender;
    }
 
-   h2 {
-       font-family: 'Ubuntu', sans-serif;
-   }
 
    .btn {
        width: 150px;
