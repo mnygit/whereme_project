@@ -19,9 +19,7 @@ import ReactPlayer from 'react-player';
            autoPlay: true,
            muted: true
          }}}}
-         /> 
-        <h2 className="hero">Hero Section</h2>
-
+         />
         </div>
       )
   }
