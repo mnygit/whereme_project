@@ -11,8 +11,9 @@ import ReactPlayer from 'react-player';
          url={video} 
          width="100%" 
          height="auto" 
-         controls={true}
+         controls={false}
          playing
+         loop
          muted
          config={{ file: { attributes: {
            autoPlay: true,
