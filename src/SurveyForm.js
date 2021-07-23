@@ -4,18 +4,17 @@ import './index.css';
 
 const SurveyForm = () => {
     return (
-      <div>
-      <section className="quiz">
+      <article>
+      <form className="quiz">
         <h2>Style Quiz</h2>
         <p>What occasion are you dressing for?</p>
         <p>What is your age range?</p>
         <p>What is the season?</p>
         <button class="btn">Show Styles!</button>
-        </section>
+        </form>
         <div>
-        {/* <button class="btn">Show Styles!</button> */}
         </div>
-        </div>
+        </article>
     );
   }
 
