@@ -7,9 +7,12 @@ const SurveyForm = () => {
       <article>
       <form className="quiz">
         <h2>Style Quiz</h2>
-        <p>What occasion are you dressing for?</p>
-        <p>What is your age range?</p>
-        <p>What is the season?</p>
+        <label htmlFor="occasion">What occasion are you dressing for?</label>
+        <input type="text"/>
+        <label>What is your age range?</label>
+        <input type="text"/>
+        <label>What is the season?</label>
+        <input type="text"/>
         <button class="btn">Show Styles!</button>
         </form>
         <div>
