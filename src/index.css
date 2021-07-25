@@ -67,8 +67,8 @@ footer {
    }  */
 
    .quiz {
-    width: 90vw;
-    max-width: 1170px;
+    width: 100%;
+    height: auto;
     margin: 5rem auto;
     display: grid;
     gap: 2rem;
