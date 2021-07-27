@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-// import './assets/pexels-vlada-karpovich-7429304.mp4';
+
 
 const SurveyForm = () => {
     return (
