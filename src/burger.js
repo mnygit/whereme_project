@@ -5,7 +5,7 @@ import './index.css';
 const Burger = () => {
  return (
      <button className="burger">
-         <div className="menu">Burger menu</div>
+         <div className="menu"></div>
      </button>
 
 
