@@ -80,3 +80,31 @@ footer {
        width: 150px;
        height: 50px;
    }
+
+   .burger {
+     position: absolute;
+     top: 5%;
+     left: 2rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     width: 2rem;
+     height: 2 rem;
+     background: transparent;
+     border: none;
+     cursor: pointer;
+     padding: 0;
+     z-index: 10;
+
+   }
+
+   .menu {
+       width: 2rem;
+       height: 0.25rem;
+       background-color: turquoise;
+       border-radius: 10px;
+       transform: all 0.3s linear;
+       position: relative;
+       transform-origin: 1px;
+
+   }
