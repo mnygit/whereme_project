@@ -58,8 +58,32 @@ img {
 
 .hero-section {
     height: 600px;
-    
+    display: flex;  
 }
+
+.hero-column {
+   flex: 2;
+   
+}
+
+.hero-intro {
+    background-color: #3B1C32;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Style section */
 
