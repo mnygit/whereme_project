@@ -6,7 +6,12 @@ import ReactPlayer from 'react-player';
 
   const HeroSection = () => {
       return (
-        <div className="hero-section">
+        <div className="hero-section"> 
+          <div className="intro"> 
+          <h2>Sed ut perspiciatis unde</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua.</p>
+          </div>
          <ReactPlayer
          className="hero-video"
          url={video} 
