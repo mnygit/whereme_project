@@ -9,7 +9,7 @@ import ReactPlayer from 'react-player';
         <div className="hero-section">
          <ReactPlayer
          url={video} 
-         width="100%" 
+         width="50%" 
          height="auto" 
          controls={false}
          playing
