@@ -4,106 +4,78 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;  
+}
 
-   
-   }
 
-  img {
-      max-width: 100%;
-      height: auto;
-  }
 
-  .logo {
-      line-height: 3em;
-  }
 
- .container {
-     /* width: 960px; */
-     max-width: 100%;
-     /* padding: 20px; */
-     /* margin: 0 auto; */
-     background-color:bisque; 
- }
+/* Header */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    line-height: 3em;
+}
+
+
+
+/* Navigation  */
+
+.container {
+    max-width: 100%;
+    background-color:bisque; 
+}
 
 .main-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
 }
 
 .main-nav ul {
-    margin: 1em 0 .5em;
-    text-align: center;
+   margin: 1em 0 .5em;
+   text-align: center;
 }
 
 .main-nav li {
-    display: inline;
+   display: inline;
 }
 
 .main-nav a {
-    display: inline-block;
-    padding: .5em 1.5em;
-    text-decoration: none;
+   display: inline-block;
+   padding: .5em 1.5em;
+   text-decoration: none;
 }
 
 
 
-
-
-footer {
-    background-color: cornflowerblue;
-}
+/* Intro section */
 
 .hero-section {
     height: 600px;
-    display: flex;
+    
 }
 
+/* Style section */
 
 
-   .quiz {
+/* Testimonials section */
+
+/* Take Quiz  */
+
+
+/* Footer */
+
+footer {
+    background-color: cornflowerblue;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    height: auto;
-    margin: 5rem auto;
-    display: grid;
-    gap: 2rem;
-    background-color: lavender;
-   }
-
-
-   .btn {
-       width: 150px;
-       height: 50px;
-   }
-
-   .burger {
-     position: absolute;
-     top: 5%;
-     left: 2rem;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-     width: 2rem;
-     height: 2 rem;
-     background: transparent;
-     border: none;
-     cursor: pointer;
-     padding: 0;
-     z-index: 10;
-
-   }
-
-   .menu {
-       width: 2rem;
-       height: 0.25rem;
-       background-color: turquoise;
-       border-radius: 10px;
-       transform: all 0.3s linear;
-       position: relative;
-       transform-origin: 1px;
-
-   }
-
-   
+    
+    
+}

@@ -12,9 +12,7 @@ const App = () => {
 return (
    <div>
       <Header />
-      <Burger/>
       <Hero />
-      <SurveyForm />
       <Footer />
     </div>
   )
