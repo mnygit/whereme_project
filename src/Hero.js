@@ -8,6 +8,7 @@ import ReactPlayer from 'react-player';
       return (
         <div className="hero-section">
          <ReactPlayer
+         className="hero-video"
          url={video} 
          width="50%" 
          height="auto" 
@@ -20,7 +21,6 @@ import ReactPlayer from 'react-player';
            muted: true
          }}}}
          />
-         <h2>Testing the font!</h2>
         </div>
       )
   }
