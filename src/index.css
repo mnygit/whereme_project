@@ -19,11 +19,30 @@ img {
 
 .logo {
     line-height: 3em;
+    color: #CA054D;
+    font-weight: 800;
 }
 
 
 
 /* Navigation  */
+
+/* Mobile view  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container {
     max-width: 100%;
@@ -50,6 +69,7 @@ img {
    display: inline-block;
    padding: .5em 1.5em;
    text-decoration: none;
+   color: #CA054D;
 }
 
 
@@ -57,18 +77,22 @@ img {
 /* Intro section */
 
 .hero-section {
-    height: 600px;
+    /* height: 600px; */
     display: flex;  
 }
 
 .hero-column {
    flex: 2;
    
+   
+   
 }
 
 .hero-intro {
     background-color: #3B1C32;
     color: #fff;
+    padding: 100px;
+    
 
 }
 
