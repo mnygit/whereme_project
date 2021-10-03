@@ -1,11 +1,13 @@
 import React from 'react';
 import './index.css';
-
+import './MobileMenu';
+import MobileMenu from './MobileMenu';
 
 
 const Header = () => {
     return (
         <header className="main-header">
+            <MobileMenu/>
 
          {/* <div className="container">
              <h1 className="logo">WhereMe

@@ -1,13 +1,15 @@
 import React from 'react';
 import './index.css';
+import {AiOutlineMenu} from 'react-icons/ai';
 
 
-const Burger = () => {
+const MobileMenu = () => {
  return (
  <>
     <div class="mobile-container">
     <div className="top-nav"> 
     <a href="#home" className="active">WhereMe</a>
+    <AiOutlineMenu size='24px' color='black'/>
     <div className="nav-links">
         <a href="#about">About</a>
         <a href="#survey">Survey</a>
@@ -17,9 +19,7 @@ const Burger = () => {
     </div>
   </div>
 
-     <button className="burger">
-         <div className="menu"></div>
-     </button>
+     
      </>
 
 
@@ -28,4 +28,4 @@ const Burger = () => {
 }
 
 
-export default Burger;
+export default MobileMenu;
