@@ -33,7 +33,8 @@
     min-width: 320px;
     margin: auto;
     background-color: #FFCF9C;
-    height: 500px;
+    /* height: 500px; */
+    height: 200px;
     color: #fff;
     border-radius: 10px;
 }
@@ -43,7 +44,8 @@
     background-color: #A4D4B4;
 }
 .top-nav .nav-links {
-    display: none;
+    /* display: none; */
+    display: block;
 }
 
 .top-nav a {
@@ -54,7 +56,28 @@
     display: block;
 }
 
+.top-nav a.burger-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    /* background: #fff; */
+}
 
+.top-nav a:hover {
+    background-color: #B96D40;
+    /* color: #000; */
+}
+
+.active {
+    background-color: #FFCF9C;
+    color: #fff;
+}
+
+.nav-links {
+    color: #fff;
+
+}
 
 
 

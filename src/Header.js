@@ -1,26 +1,11 @@
 import React from 'react';
 import './index.css';
-import icon from './BurgerIcon';
+
 
 
 const Header = () => {
     return (
         <header className="main-header">
-          <div class="mobile-container">
-            <div className="top-nav"> 
-            <a href="#home" className="active">WhereMe</a>
-            <div className="nav-links">
-                <a href="#about">About</a>
-                <a href="#survey">Survey</a>
-                <a href="#contact">Contact</a>
-                </div>
-                <a href="#" className="burger-icon" img src={icon}></a>
-            </div>
-          </div>
-
-
-
-
 
          {/* <div className="container">
              <h1 className="logo">WhereMe
