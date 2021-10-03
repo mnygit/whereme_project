@@ -15,9 +15,8 @@ import ReactPlayer from 'react-player';
             aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
           </section>
-          <section className="hero-column">
+          <section className="hero-column hero-video">
          <ReactPlayer
-         className="hero-video"
          url={video} 
          width="100%" 
          height="auto" 
