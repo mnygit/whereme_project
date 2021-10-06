@@ -9,10 +9,12 @@ import ReactPlayer from 'react-player';
         <div className="hero-section"> 
           <section className="hero-column hero-intro"> 
           <div className="intro">
-          <h2 className="intro-header">Sed ut perspiciatis unde</h2>
+          <h2 className="intro-header">A creative approach to shopping.</h2>
           <p className="intro-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            labore et dolore magna aliqua magna aliqua.</p>
+            <div className="btn-center">
+            <button className="btn">Style Me Now!</button>
+            </div>
           </div>
           </section>
           <section className="hero-column hero-video">

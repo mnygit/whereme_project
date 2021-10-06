@@ -32,8 +32,7 @@
 .mobile-container {
     min-width: 320px;
     margin: auto;
-    background-color: #FFCF9C;
-    /* height: 500px; */
+    /* background-color: #FFCF9C; */
     height: 200px;
     color: #fff;
     border-radius: 10px;
@@ -41,37 +40,42 @@
 .top-nav {
     position: relative;
     overflow: hidden;
-    background-color: #A4D4B4;
+    border-bottom: 1px solid #3B1C32;
+    
 }
 .top-nav .nav-links {
-    /* display: none; */
-    display: block;
+    display: none;
+    /* display: block; */
 }
 
 .top-nav a {
-    color: #fff;
+    /* color: #fff; */
+    color: #CA054D;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 40px;
     display: block;
 }
 
-.top-nav a.burger-icon {
+.top-nav .menu-icon {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     display: block;
     /* background: #fff; */
 }
 
-.top-nav a:hover {
+/* .top-nav a:hover {
     background-color: #B96D40;
-    /* color: #000; */
-}
+    /* color: #000; }*/
+
 
 .active {
-    background-color: #FFCF9C;
+    /* background-color: #FFCF9C; */
     color: #fff;
+    /* font-size: 18px; */
+   
 }
 
 .nav-links {
@@ -79,6 +83,66 @@
 
 }
 
+.menu-icon {
+    width: 45px;
+    height: 45px; 
+    color: #000;
+    margin: 20px;
+    
+   
+
+}
+
+.logo {
+    margin-left: 75px;
+   
+}
+
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  
+} 
+.intro-header {
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.intro-description {
+    
+    /* text-align: center; */
+    font-size: 24px;
+    padding: 50px;
+    line-height: 1.6;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.btn {
+    background-color: #CA054D;
+    margin: 4px 2px;
+    border: none;
+    cursor: pointer;
+    /* font-size: 18px; */
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 35px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    
+
+}
 
 
 
@@ -90,6 +154,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for larger screens */
 
 
 
