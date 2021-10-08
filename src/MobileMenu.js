@@ -23,9 +23,9 @@ const MobileMenu = () => {
     </h4> 
     </a>
     <div className="nav-links">
-        <a href="#about">About</a>
-        <a href="#survey">Survey</a>
-        <a href="#contact">Contact</a>
+        <a className="menu-item" href="#about">About</a>
+        <a className="menu-item" href="#survey">Survey</a>
+        <a className="menu-item" href="#contact">Contact</a>
         </div>
         <a href="#" className="burger-icon"></a>
     </div>
