@@ -13,7 +13,7 @@ return (
    <div>
       <Header />
       <Hero />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
  }
