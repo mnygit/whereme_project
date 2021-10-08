@@ -13,7 +13,7 @@ const MobileMenu = () => {
  <>
     <div class="mobile-container">
     <div className="top-nav"> 
-    <a href="#home" className="active">
+    <a href="#home">
     <h4 className="logo">WhereMe
     {/* <img src="https://cdn2.iconfinder.com/data/icons/e-commerce-icons-2/256/Ecommerce_Icons_Rose_Color-11-512.png" width="50" height="50"/> */}      
     <AiOutlineMenu
