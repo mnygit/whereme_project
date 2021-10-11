@@ -59,6 +59,12 @@
     display: block;
 }
 
+
+
+.menu-item {
+    font-size: 10px;
+}
+
 .top-nav .menu-icon {
     position: absolute;
     top: 0;
@@ -67,16 +73,7 @@
     /* background: #fff; */
 }
 
-/* .top-nav a:hover {
-    background-color: #B96D40;
-    /* color: #000; }*/
 
-
-
-
-
-
- 
 
 .menu-icon {
     /* width: 45px;
