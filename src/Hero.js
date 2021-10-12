@@ -17,8 +17,9 @@ import ReactPlayer from 'react-player';
             </div>
           </div>
           </section>
-          <section className="hero-column hero-video">
+          <section className="hero-column">
          <ReactPlayer
+         className="hero-video"
          url={video} 
          width="100%" 
          height="auto" 
