@@ -45,8 +45,8 @@
     
 }
 .top-nav .nav-links {
-    /* display: none; */
-    display: block;
+    display: none;
+    /* display: block; */
 }
 
 .top-nav a {
@@ -98,6 +98,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: -65px;
     
   
 } 
