@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;  
+  
 }
 
 
@@ -143,6 +144,39 @@
 .hero-video {
     display: none;
 }
+
+
+.clothing {
+    color: #A4D4B4;
+    text-align: center;
+    /* position: relative; */
+    
+}
+
+.img-one, 
+.img-two,
+.img-three,
+.img-four, 
+.img-five {
+    position: relative;
+}
+
+.img-label {
+    position: absolute;
+    bottom: 4px;
+    left: 52px;
+    background-color: #B96D40;
+    color: #fff;
+    padding: 2px;
+    width: 80px;
+    text-align: center;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+
+
+
 
 
 
