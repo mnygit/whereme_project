@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Clothing from './Clothing';
 import SurveyForm from './SurveyForm'; 
 import Footer from './Footer';
+import Testimonial from './testimonials';
 
 
 
@@ -15,6 +16,7 @@ return (
       <Header />
       <Hero />
       <Clothing />
+      <Testimonial />
       {/* <Footer /> */}
     </div>
   )
