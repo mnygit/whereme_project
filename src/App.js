@@ -17,7 +17,7 @@ return (
       <Hero />
       <Clothing />
       <Testimonial />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
  }
