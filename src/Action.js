@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import dress from './dress.jpg';
+import dress from './dress.png';
 
 
 
