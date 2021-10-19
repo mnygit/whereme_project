@@ -174,7 +174,14 @@
     padding-right: 10px; */
 }
 
+.gallery-image {
+    transition: transform .2s;
+}
 
+.gallery-image:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
 
 
 
