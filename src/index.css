@@ -218,60 +218,71 @@
 /* Styles for larger screens */
 
 
-
-
-
-/* .container {
+@media screen and (min-width: 786px) {
+    .container {
     max-width: 100%;
     background-color:bisque; 
-} */
+}
 
-/* .main-header .container {
+.main-header .container {
    display: flex;
    align-items: center;
    justify-content: space-around;
    flex-wrap: wrap;
-} */
+}
 
-/* .main-nav ul {
+.main-nav ul {
    margin: 1em 0 .5em;
    text-align: center;
-} */
+}
 
-/* .main-nav li {
+.main-nav li {
    display: inline;
-} */
+}
 
-/* .main-nav a {
+.main-nav a {
    display: inline-block;
    padding: .5em 1.5em;
    text-decoration: none;
    color: #CA054D;
-} */
-
-
+}
 
 /* Intro section */
 
-/* .hero-section {
-    /* height: 600px; */
-    /* display: flex; }  */
+.hero-section {
+    height: 600px;
+    display: flex; 
+
+} 
 
 
-/* .hero-column {
+.hero-column {
    flex: 2;
    
    
    
-} */
+}
 
-/* .hero-intro {
+.hero-intro {
     background-color: #3B1C32;
     color: #fff;
     padding: 100px;
     
 
-} */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
