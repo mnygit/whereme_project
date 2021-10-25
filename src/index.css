@@ -107,6 +107,7 @@
     padding-top: 10px;
     text-transform: uppercase;
     text-align: center;
+    color: #A4D4B4;
 
 }
 
@@ -192,7 +193,12 @@
     height:auto;
 }
 
-
+footer {
+    background-color: cornflowerblue;
+    width: 100%;
+    
+    
+} 
 
 
 
@@ -218,7 +224,7 @@
 /* Styles for larger screens */
 
 
-@media screen and (min-width: 786px) {
+/* @media screen and (min-width: 786px) {
     .container {
     max-width: 100%;
     background-color:bisque; 
@@ -249,7 +255,7 @@
 
 /* Intro section */
 
-.hero-section {
+/* .hero-section {
     height: 600px;
     display: flex; 
 
@@ -272,7 +278,7 @@
 }
 
 
-}
+} */
 
 
 
@@ -307,9 +313,4 @@
 
 /* Footer */
 
-footer {
-    background-color: cornflowerblue;
-    width: 100%;
-    
-    
-}
+
