@@ -13,7 +13,7 @@ const Testimonial = () => {
       <blockquote><p className="quotation">Lorem ipsum dolor sit ametconsectetur adipiscing elit 
       ut labore et dolore magna aliqua</p></blockquote>
       <blockquote><p className="quotation">Lorem ipsum dolor sit ametconsectetur adipiscing elit 
-      ut labore et dolore magna aliqua.</p></blockquote>
+      ut labore et dolore.</p></blockquote>
 
 
       </section>
